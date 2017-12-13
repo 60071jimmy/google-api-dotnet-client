@@ -1,12 +1,12 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"tbys6C40o18GZwyMen5GMkdK-3s/uePHydzmUhZLWLtyPJ_GHjROU1A\"",
+ "etag": "\"YWOzh2SDasdU84ArJnpYek-OMdg/VxIc5srE4gMSXl83OJ7lOi7ZNVw\"",
  "discoveryVersion": "v1",
  "id": "androidpublisher:v1.1",
  "name": "androidpublisher",
  "canonicalName": "Android Publisher",
  "version": "v1.1",
- "revision": "20161212",
+ "revision": "20171030",
  "title": "Google Play Developer API",
  "description": "Lets Android application developers access their Google Play accounts.",
  "ownerDomain": "google.com",
@@ -21,7 +21,7 @@
  "basePath": "/androidpublisher/v1.1/applications/",
  "rootUrl": "https://www.googleapis.com/",
  "servicePath": "androidpublisher/v1.1/applications/",
- "batchPath": "batch",
+ "batchPath": "batch/androidpublisher/v1.1",
  "parameters": {
   "alt": {
    "type": "string",
@@ -95,6 +95,10 @@
      "type": "string",
      "description": "This kind represents an inappPurchase object in the androidpublisher service.",
      "default": "androidpublisher#inappPurchase"
+    },
+    "orderId": {
+     "type": "string",
+     "description": "The order id associated with the purchase of the inapp product."
     },
     "purchaseState": {
      "type": "integer",

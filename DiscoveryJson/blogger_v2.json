@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"tbys6C40o18GZwyMen5GMkdK-3s/Mm4a0u3lPNBqEzKCYhfhIpC2Mw4\"",
+ "etag": "\"YWOzh2SDasdU84ArJnpYek-OMdg/Mm4a0u3lPNBqEzKCYhfhIpC2Mw4\"",
  "discoveryVersion": "v1",
  "id": "blogger:v2",
  "name": "blogger",
@@ -23,7 +23,7 @@
  "basePath": "/blogger/v2/",
  "rootUrl": "https://www.googleapis.com/",
  "servicePath": "blogger/v2/",
- "batchPath": "batch",
+ "batchPath": "batch/blogger/v2",
  "parameters": {
   "alt": {
    "type": "string",
